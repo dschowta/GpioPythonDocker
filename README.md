@@ -9,7 +9,7 @@ docker run --privileged dschowta/gpiopy <python file>
 
 For example run the example file
 ```
-docker run --privileged  -v $(pwd):/home/example  dschowta/gpiopy /home/example/motionsensor.py
+docker run --privileged  -v $(pwd):/home/example  dschowta/gpiopy /home/example/motionsensor_Example.py
 
 ```
 
